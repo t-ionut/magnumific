@@ -81,13 +81,15 @@ Catalog color
 */
 #topnav { 
     font-size: 1.8rem; 
+    padding: 1.2rem 2rem 1rem 2rem;
     position: fixed; 
     width: 100%;
     z-index: 1000;
 }
-#topnav > nav > a { 
+#topnav nav { float: right; margin-right: 4rem; }
+#topnav nav a { 
     display: inline-block; 
-    margin: 1.2rem 2rem 1rem 2rem; 
+    margin: 1.4rem 2rem 1rem 2rem; 
     vertical-align: middle; 
 }
 .blue { background-color: #151728; color: white; }
