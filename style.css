@@ -1,0 +1,460 @@
+/*
+ Theme Name:   Magnumific
+ Description:  Simple yet awesome theme for a local business
+ Author:       Ionut Tolci
+ Version:      1.0.0
+*/
+
+/***** NOTES !!!!!!!!!! *****/
+/*
+    - at < 1034px navitem-expanded breaks
+    - at < 1034px Lider în România ... and logo should get closer to edges
+    - at < 1043px about section pictures crash
+*/
+/***** NOTES !!!!!!!!!! *****/
+
+/********** SITEWIDE FONTS **********/
+@font-face {
+	font-family: 'ZonaPro-Bold';
+	src: 	url('/wp-content/themes/magnumific/fonts/zonapro/bold/ZonaPro-Bold.eot?#iefix') format('embedded-opentype'), 
+			url('/wp-content/themes/magnumific/fonts/zonapro/bold/ZonaPro-Bold.otf')  format('opentype'), 
+			url('/wp-content/themes/magnumific/fonts/zonapro/bold/ZonaPro-Bold.woff') format('woff'), 
+			url('/wp-content/themes/magnumific/fonts/zonapro/bold/ZonaPro-Bold.ttf')  format('truetype'), 
+			url('/wp-content/themes/magnumific/fonts/zonapro/bold/ZonaPro-Bold.svg#ZonaPro-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ZonaPro-Thin';
+	src: 	url('/wp-content/themes/magnumific/fonts/zonapro/thin/ZonaPro-Thin.eot?#iefix') format('embedded-opentype'), 
+			url('/wp-content/themes/magnumific/fonts/zonapro/thin/ZonaPro-Thin.otf')  format('opentype'),
+	     	url('/wp-content/themes/magnumific/fonts/zonapro/thin/ZonaPro-Thin.woff') format('woff'), 
+			url('/wp-content/themes/magnumific/fonts/zonapro/thin/ZonaPro-Thin.ttf')  format('truetype'), 
+			url('/wp-content/themes/magnumific/fonts/zonapro/thin/ZonaPro-Thin.svg#ZonaPro-Thin') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/********** SITEWIDE FONTS **********/
+
+/********** FONT SETTINGS **********/
+.bold {	font-family: 'ZonaPro-Bold'; }
+.title { font-size: 3rem; }
+.subtitle { font-size: 2rem; }
+.keyword { color: darkblue; }
+/********** FONT SETTINGS **********/
+
+/********** SEPARATORS **********/
+.section-separator { 
+    background-color: #151728; 
+    height: 2rem;
+    margin: 2rem 0rem 2rem 0rem;
+    width: 100%;
+}
+/********** SEPARATORS **********/
+
+/********** UTILS **********/
+a.anchor { 
+    display: block;
+    position: relative; 
+    top: -10.6rem; 
+    visibility: hidden;
+}
+/********** UTILS **********/
+
+/********** RESET **********/
+html, body, div, h1, h2, h3, h4, h5, h6, 
+ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; }
+html { font-size: 62.5%; }
+body { 
+    font-family: 'ZonaPro-Thin'; 
+    font-size: 1.6rem;
+    text-decoration: none; 
+}
+a { text-decoration: none; }
+/********** RESET **********/
+
+/********** TOP NAV **********/
+/*
+Catalog color
+#topnav { background-color: #14151F; }
+*/
+#topnav { 
+    font-size: 1.8rem; 
+    position: fixed; 
+    width: 100%;
+    z-index: 1000;
+}
+#topnav > nav > a { 
+    display: inline-block; 
+    margin: 1.2rem 2rem 1rem 2rem; 
+    vertical-align: middle; 
+}
+.blue { background-color: #151728; color: white; }
+.blue a { color: white; }
+/********** TOP NAV **********/
+
+/********** BANNER **********/
+#site-banner { 
+    margin-top: 7.4rem; 
+    margin-bottom: 2rem; 
+    position: relative;
+}
+#site-banner-bar { top: 12rem; position: absolute; }
+.banner-bar { height: 10rem; width: 100%; }
+#short-desc { 
+    display: inline-block; 
+    float: right;
+    margin: 2.2rem 10rem 0rem 0rem;
+    text-align: center;
+    vertical-align: middle; 
+}
+#site-banner img { 
+    /* TODO see how to put it on smaller screens */
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    position: relative;
+    top: 2rem;
+    left: 5rem;
+}
+/********** BANNER **********/
+
+/********** HOME **********/
+.section .banner img { width: 100%; }
+.nav-expanded {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0rem 5rem 0rem;
+}
+.nav-expanded ul { list-style-type: none; }
+.nav-expanded ul li { display: inline-block; }
+.section-anchor { 
+    background-repeat: no-repeat;
+    display: block;
+    height: 17rem;
+    width: 17rem;
+}
+.navitem-expanded {
+    height: 33rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.nav-expanded ul li:not(:first-child) {
+    border-left: 0.1rem solid black;
+}
+.nav-expanded ul li button {
+    background-color: #5a5a5a;
+    border: none;
+    color: white;
+    font-family: 'ZonaPro-Thin';
+    font-size: 1.5rem;
+    margin: 2rem 0rem 2rem 0rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+.section-anchor.about { 
+    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/1.png'); 
+}
+.section-anchor.partners { 
+    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Produse.png'); 
+}
+.section-anchor.team { 
+    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Echipa.png'); 
+}
+.section-anchor.contact { 
+    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Contact.png'); 
+}
+.navitem-title { 
+    font-size: 2.5rem; 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.navitem-excerpt { 
+    margin-top: 2rem;
+    max-width: 17rem; 
+}
+/********** HOME **********/
+
+/********** ABOUT **********/
+.section#about .banner { width: 100%; /*display: flex; height: 40rem;*/ }
+.section#about .banner img { width: 33%; padding: 0; }
+.section#about .banner img:first-child { margin-left: 0.2rem; }
+/*
+.section#about .banner img:last-child { float: right; width: 33%; }
+*/
+#about-title { margin-bottom: 3rem; margin-left: 5rem; margin-top: 5rem; }
+.about-blocks { margin-top: 7rem; width: 100%; }
+.about-blocks ul, .reason-blocks ul { list-style-type: none; }
+.about-blocks ul li, .reason-blocks ul li {
+    height: 17.4rem;
+    width: 100%; 
+}
+.about-blocks ul li {
+    border-bottom: 0.1rem solid gray;
+}
+.about-blocks ul li,
+/*.reason-blocks ul li { padding-top: 3rem; padding-bottom: 3rem; }*/
+.reason-blocks ul li { width: 90%; }
+.reason-blocks ul li .reason-block { width: 35rem; }
+.reason-blocks ul li:first-child { padding-top: 3rem; }
+.reason-blocks ul li:first-child,
+.reason-blocks ul li:nth-child(2) {
+    border-bottom: 0.1rem solid gray; 
+    padding-bottom: 5rem;
+}
+.reason-blocks ul li:nth-child(3) { 
+    border-bottom: 0.1rem solid gray; 
+}
+.reason-blocks ul li:first-child .reason-block:nth-child(2),
+.reason-blocks ul li:nth-child(2) .reason-block:nth-child(2),
+.reason-blocks ul li:nth-child(3) .reason-block:nth-child(2) {
+    border-left: 0.1rem solid gray;
+    border-right: 0.1rem solid gray;
+}
+.reason-blocks ul li:last-child .reason-block { text-align: center; width: 100%; }
+.about-blocks ul li:last-child { border: none; padding-top: 3rem; }
+.about-blocks ul li .about-block {
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+}
+.about-blocks ul li:last-child .about-block { 
+    text-align: center; 
+    width: 100%; 
+}
+/*
+.about-blocks ul li:last-child .about-block .about-icon,
+.about-blocks ul li:last-child .about-block .about-block-text {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+*/
+.about-blocks ul li .about-block:first-child { left: 0; }
+.about-blocks ul li .about-block:last-child { right: 0; }
+.about-icon {
+    background-repeat: no-repeat;
+    float: left;
+    height: 17rem;
+    width: 17rem;
+    margin-left: 3rem;
+}
+#ab-1 {
+    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/1.png');
+}
+#ab-2 {
+    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Depozit.png');
+}
+#ab-3 {
+    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Distributie.png');
+}
+#ab-4 {
+    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Sucursale.png');
+}
+#ab-5 {
+    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Grafic.png');
+}
+.about-block-text { 
+    bottom: 0;
+    float: left;
+    font-size: 1.2rem;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-top: 5rem;
+    max-width: 35rem; 
+    position: relative;
+    text-align: left; 
+}
+#reason-list { margin-left: 5rem; margin-top: 5rem; }
+.reason-block { display: inline-block; margin: 2rem 2rem 0rem 2rem; }
+.reason-block:first-child { text-align: left; }
+.reason-block:nth-child(2n) { text-align: center; }
+.reason-block:nth-child(3n) { text-align: right; }
+.reason-num { 
+    display: inline-block;
+    font-size: 5rem; 
+    height: 10.5rem;
+    margin-right: 2rem;
+}
+.reason-block .reason-num, .reason-block .reason-block-text {
+    display: inline-block;
+}
+.reason-block-text .subtitle { margin-bottom: 3rem; }
+.reason-desc { font-size: 1.2rem; height: 10.5rem; margin-top: 3rem; width: 25rem; }
+/********** ABOUT **********/
+
+/********** PARTNERS **********/
+.section#partners .partners ul { list-style-type: none; }
+.partner-logo img {/* width: 30rem; height: 15.4rem;*/ }
+/********** PARTNERS **********/
+
+/********** TEAM **********/
+.section#team ul { list-style-type: none; }
+.section#team ul li { display: none; }
+.section#team ul li:first-child { display: inline-block; }
+/********** TEAM **********/
+
+/********** CAREER **********/
+.section#career .blue.banner-bar { margin-top: 7rem; }
+.section#career .blue.banner-bar.title { 
+    align-items: center;
+    display: flex;
+    font-size: 5.2rem; 
+    justify-content: center;
+}
+/********** CAREER **********/
+
+/********** CONTACT **********/
+#map { 
+    height: 20rem;
+    width: 65rem;
+}
+/********** CONTACT **********/
+
+/********** FORMS **********/
+#wpcf7-f65-o1 { width: 50%; }
+#wpcf7-f65-o1 form { margin: 5rem 0rem 5rem 10rem; }
+#wpcf7-f65-o1 form p, #wpcf7-f66-o2 form p { 
+    color: gray;
+    font-family: 'ZonaPro-Bold'; 
+    font-size: 1.2rem;
+    margin: 2.5rem;
+}
+/********** FORMS **********/
+
+/********** CANDIDATE FORM **********/
+.mgm-candidate-field { width: 30rem; }
+/********** CANDIDATE FORM **********/
+
+/*
+div.about-block, div.about-block > *, 
+*/
+div.partner-logo, div.team-icon { display: inline-block; }
+
+
+.reason { vertical-align: top; margin: 15px; }
+div.partner-logo > img { max-width: 300px; max-height: 200px; }
+div.team-member { width: 300px; height: 400px; background-color: gray; display: inline-block; }
+div.team-member > p { font-size: 20px; color: white; text-align: center; }
+
+
+/*
+
+.blue-bar, .blue-bar a {
+	color: white; 
+	background-color: #272470;
+}
+
+nav#top-nav {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	margin-bottom: 0;
+	padding: 5px 0px 5px 0px;
+	z-index: 1;
+	display: inline-block;
+}
+
+nav#top-nav a {
+	text-decoration: none;
+}
+
+nav#top-nav a:first-child {
+	margin-left: 30px;
+}
+
+nav#top-nav a:not(:first-child) {
+	position: relative;
+	bottom: 17px;
+	padding: 10px 10px 10px 10px;
+}
+
+#mgm-logo {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+#title-logo {
+	height: 200px;
+}
+
+.title-right {
+	padding: 5px 50px 5px 0px;
+}
+
+.title-right p {
+	text-align: center;
+}
+
+p.title {
+	font-size: 25px;
+}
+
+p.subtitle {
+	font-size: 20px;
+}
+
+div#title-logo img {
+	background-color: white;
+	position: relative;
+	padding: 20px;
+	margin: -95px 0px 0px 50px;
+	float: left;
+}
+
+div#title-logo div.blue-bar {
+	margin-top: 150px;
+}
+
+.full {
+	width: 100%;
+	height: 300px;
+    top: 0;
+    left: 0;
+    background-image: url("/wp-content/uploads/2016/02/magnum-cover-black-white-text-included.jpg");
+    background-size: 100%;
+}
+
+p.image-text {
+	float: right;
+	position: relative;
+	text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    div#title-logo img {
+	    background-color: white;
+	    position: relative;
+	    padding: 20px;
+	    margin: -95px 0px 0px 50px;
+	    float: none;
+        max-width: 200px;
+        max-height: 200px;
+        display: none;
+    }
+
+    nav#top-nav {
+        display: none;
+    }
+
+    body {
+        margin: 5px;
+    }
+
+    body * {
+        display: block;
+    }
+
+    script, style {
+        display: none;
+    }
+
+    .full {
+        width: 400px;
+        height: 100px;
+        background-image: url("/wp-content/uploads/2016/02/magnum-cover-black-white-text-included-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+*/
