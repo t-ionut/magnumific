@@ -124,6 +124,7 @@ Catalog color
 .section .banner img { width: 100%; }
 .nav-expanded {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     margin: 5rem 0rem 5rem 0rem;
 }
@@ -137,8 +138,7 @@ Catalog color
 }
 .navitem-expanded {
     height: 33rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin: 1rem 4rem 1rem 4rem;
 }
 .nav-expanded ul li:not(:first-child) {
     border-left: 0.1rem solid black;
