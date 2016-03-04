@@ -7,7 +7,8 @@
         <a class="smooth" href="#despre">Despre noi</a>
         <a class="smooth" href="#parteneri">Parteneri</a>
         <a class="smooth" href="#echipa">Echipă</a>
-    	<a class="smooth" href="#cariera">Carieră</a>
-	<a class="smooth" href="#contact">Contact</a>
+        <a class="smooth" href="#cariera">Carieră</a>
+        <a class="smooth" href="#contact">Contact</a>
+        <a class="menu" href="#">Meniu</a>
     </nav>
 </div>

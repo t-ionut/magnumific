@@ -87,6 +87,7 @@ Catalog color
     z-index: 1000;
 }
 #topnav nav { float: right; margin-right: 4rem; }
+#topnav nav a.menu { display: none; }
 #topnav nav a { 
     display: inline-block; 
     margin: 1.4rem 2rem 1rem 2rem; 
@@ -94,12 +95,17 @@ Catalog color
 }
 .blue { background-color: #151728; color: white; }
 .blue a { color: white; }
+@media only screen and (max-width: 835px) {
+    #topnav { padding-top: 0.5rem; padding-bottom: 0.3rem; }
+    #topnav nav a.smooth { display: none; }
+    #topnav nav a.menu { display: inline-block; }
+}
 /********** TOP NAV **********/
 
 /********** BANNER **********/
 #site-banner { 
-    margin-top: 7.4rem; 
-    margin-bottom: 2rem; 
+    margin-top: 3rem; 
+    margin-bottom: 3rem; 
     position: relative;
 }
 #site-banner-bar { top: 12rem; position: absolute; }
@@ -117,8 +123,36 @@ Catalog color
     margin-bottom: 1rem;
     padding: 2rem;
     position: relative;
-    top: 2rem;
+    top: 4rem;
     left: 5rem;
+    width: 20rem;
+    height: 20rem;
+}
+@media only screen and (min-width: 836px) and (max-width: 1000px) {
+    .banner-bar { height: 7rem; }
+    #site-banner img { 
+        height: 15rem; 
+        width: 15rem; 
+        margin-bottom: 4rem;
+        padding: 1rem; 
+        top: 6rem;
+    }
+    #short-desc { margin-top: 1.2rem; }
+    #short-desc p.title { font-size: 2.5rem; }
+    #short-desc p.subtitle { font-size: 1.5rem; }
+}
+@media only screen and (max-width: 835px) {
+    #site-banner-bar { top: 6.5rem; }
+    .banner-bar { height: 5rem; }
+    #site-banner img {
+        height: 10rem;
+        width: 10rem;
+        padding: 0.7rem;
+        top: 3rem;
+    }
+    #short-desc { margin-top: 0.8rem; }
+    #short-desc p.title { font-size: 2rem; }
+    #short-desc p.subtitle { font-size: 1rem; }
 }
 /********** BANNER **********/
 
