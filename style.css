@@ -163,9 +163,9 @@ Catalog color
     .banner-bar { height: 15rem; }
     #site-banner img {
         top: 3rem;
-        left: 2rem;
+        left: 1.5rem;
     }
-    #short-desc { margin-top: 5.5rem; margin-right: 2rem; max-width: 20rem; }
+    #short-desc { margin-top: 5.5rem; margin-right: 1.5rem; max-width: 20rem; }
     #short-desc p.title { font-size: 2rem; }
     #short-desc p.subtitle { font-size: 1rem; }
 }
