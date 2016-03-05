@@ -264,18 +264,33 @@ Catalog color
         max-height: 50rem;
         max-width: 75rem;
     }
+    .block-separator, .block-row-separator {
+        display: none;
+    }
 }
 
 .about-blocks { 
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     margin: 7rem auto auto auto;
     width: 100%; 
 }
 .about-block { 
     align-items: center;
     display: inline-flex; 
-    justify-content: flex-start;
+}
+.block-separator { 
+    border-left: thin solid gray; 
+    height: 14rem;
+    margin-top: 1.5rem;
+}
+.block-row-separator {
+    border-top: thin solid gray;
+    width: 100%;
+}
+.block-separator, .block-row-separator {
+    display: none;
 }
 .about-icon {
     background-repeat: no-repeat;
@@ -305,6 +320,9 @@ Catalog color
     max-width: 40rem; 
     padding-left: 2rem;
 }
+@media only screen and (max-width: 1195px) {
+    .about-block-text { max-width: 30rem; }
+}
 @media only screen and (max-width: 600px) {
     .about-block-text { max-width: 30rem; }
 }
@@ -316,35 +334,21 @@ Catalog color
     }
     .about-block-text { padding: 0rem; }
 }
-.reason-blocks ul { list-style-type: none; }
-.reason-blocks ul li {
-    height: 17.4rem;
-    width: 100%; 
+#reasons-desc { margin: 5rem; }
+.reason-blocks { 
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
 }
-.reason-blocks ul li { width: 90%; }
-.reason-blocks ul li .reason-block { width: 35rem; }
-.reason-blocks ul li:first-child { padding-top: 3rem; }
-.reason-blocks ul li:first-child,
-.reason-blocks ul li:nth-child(2) {
-    border-bottom: 0.1rem solid gray; 
-    padding-bottom: 5rem;
+.reason-block { 
+    display: inline-flex; 
+    margin: 2rem; 
 }
-.reason-blocks ul li:nth-child(3) { 
-    border-bottom: 0.1rem solid gray; 
-}
-.reason-blocks ul li:first-child .reason-block:nth-child(2),
-.reason-blocks ul li:nth-child(2) .reason-block:nth-child(2),
-.reason-blocks ul li:nth-child(3) .reason-block:nth-child(2) {
-    border-left: 0.1rem solid gray;
-    border-right: 0.1rem solid gray;
-}
-.reason-blocks ul li:last-child .reason-block { text-align: center; width: 100%; }
-
-#reason-list { margin-left: 5rem; margin-top: 5rem; }
-.reason-block { display: inline-block; margin: 2rem 0rem 0rem 2rem; }
+/*
 .reason-block:first-child { text-align: left; }
 .reason-block:nth-child(2n) { text-align: center; }
 .reason-block:nth-child(3n) { text-align: right; }
+*/
 .reason-num { 
     display: inline-block;
     font-size: 5rem; 
