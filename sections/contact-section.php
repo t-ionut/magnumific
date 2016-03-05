@@ -7,6 +7,6 @@
         <p class="title">Email</p>
         <?php echo do_shortcode( '[contact-form-7 id="66" title="Email"]' ); ?>
     </div>
-    <div id="map"></div>
+    <!--<div id="map"></div>-->
     <!-- GRAVITY FORMS OR SOMETHING ELSE WILL GO HERE -->
 </div>
