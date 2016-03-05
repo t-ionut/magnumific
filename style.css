@@ -318,6 +318,7 @@ Catalog color
         display: flex;
         flex-flow: column wrap;
         margin: auto;
+        padding: 0rem;
     }
 }
 .reason-blocks ul { list-style-type: none; }
