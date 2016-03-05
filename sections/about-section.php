@@ -7,32 +7,26 @@
         <img src="/wp-content/themes/magnumific/pictures/Poze/about-3-1200x800.jpg">
     </div>
     <div class="about-blocks">
-        <ul>
-            <li>
-                <div class="about-block">
-                    <div class="about-icon" id="ab-1"></div>
-                    <p class="about-block-text">Înființată în 1993, <span class="bold keyword">Magnum</span> se menține lider în România pe piața de consumabile, piese și aparate pentru service roți, deținând o rețea de <span class="bold keyword">sucursale</span> și <span class="bold keyword">o echipă profesionistă.</span></p>
-                </div>
-                <div class="about-block">
-                    <div class="about-icon" id="ab-2"></div>
-                    <p class="about-block-text">Depozitele regionale ne ajută să fim mai aproape de clienți și să livrăm marfa în cel mai scurt timp posibil în concordanță cu cerințele acestora. Ne bazăm pe un principiu puternic și de bază: <span class="bold keyword">dorința clienților noștri este și dorința noastră.</span></p>
-            </li>
-            <li>
-                <div class="about-block">
-                    <div class="about-icon" id="ab-3"></div>
-                    <p class="about-block-text">În momentul de față dispunem de o <span class="bold keyword">distribuție națională</span>, prezentată de agenți de vânzări pregătiți pentru a fi prezenți în cel mai scurt timp la fiecare client. Agenții noștri se remarcă prin <span class="bold keyword">profesionalism</span> și <span class="bold keyword">încredere.</span></p>
-                </div>
-                <div class="about-block">
-                    <div class="about-icon" id="ab-4"></div>
-                    <p class="about-block-text">În 2007 au fost deschise primele sucursale în țările vecine. Astfel, viziunea companiei se extinde și peste hotare. Personalul nostru calificat și bine instruit vă stă la dispoziție și răspunde tuturor cerințelor, atât în țară cât și în afara acesteia.</p>
-            </li>
-            <li>
-                <div class="about-block">
-                    <div class="about-icon" id="ab-5"></div>
-                    <p class="about-block-text">Firmele grupului au interese comune și își organizează activitatea pe baza acelorași <span class="bold keyword">principii și valori solide</span>, punând accent pe utilizarea în mod optim a resurselor aflate la dispoziție și pe satisfacerea deplină a clienților.</p>
-                </div>
-            </li>
-        </ul>
+        <div class="about-block">
+            <div class="about-icon" id="ab-1"></div>
+            <p class="about-block-text">Înființată în 1993, <span class="bold keyword">Magnum</span> se menține lider în România pe piața de consumabile, piese și aparate pentru service roți, deținând o rețea de <span class="bold keyword">sucursale</span> și <span class="bold keyword">o echipă profesionistă.</span></p>
+        </div>
+        <div class="about-block">
+            <div class="about-icon" id="ab-2"></div>
+            <p class="about-block-text">Depozitele regionale ne ajută să fim mai aproape de clienți și să livrăm marfa în cel mai scurt timp posibil în concordanță cu cerințele acestora. Ne bazăm pe un principiu puternic și de bază: <span class="bold keyword">dorința clienților noștri este și dorința noastră.</span></p>
+        </div>
+        <div class="about-block">
+            <div class="about-icon" id="ab-3"></div>
+            <p class="about-block-text">În momentul de față dispunem de o <span class="bold keyword">distribuție națională</span>, prezentată de agenți de vânzări pregătiți pentru a fi prezenți în cel mai scurt timp la fiecare client. Agenții noștri se remarcă prin <span class="bold keyword">profesionalism</span> și <span class="bold keyword">încredere.</span></p>
+        </div>
+        <div class="about-block">
+            <div class="about-icon" id="ab-4"></div>
+            <p class="about-block-text">În 2007 au fost deschise primele sucursale în țările vecine. Astfel, viziunea companiei se extinde și peste hotare. Personalul nostru calificat și bine instruit vă stă la dispoziție și răspunde tuturor cerințelor, atât în țară cât și în afara acesteia.</p>
+        </div>
+        <div class="about-block">
+            <div class="about-icon" id="ab-5"></div>
+            <p class="about-block-text">Firmele grupului au interese comune și își organizează activitatea pe baza acelorași <span class="bold keyword">principii și valori solide</span>, punând accent pe utilizarea în mod optim a resurselor aflate la dispoziție și pe satisfacerea deplină a clienților.</p>
+        </div>
     </div>
     <div class="section-separator"></div>
     <p class="title" id="reason-list"><span class="bold keyword">10 motive</span> pentru a ne alege</p>

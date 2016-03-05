@@ -109,7 +109,7 @@ Catalog color
 /********** BANNER **********/
 #site-banner { 
     margin-top: 3rem; 
-    margin-bottom: 3rem; 
+    margin-bottom: 2.9rem; 
     position: relative;
 }
 #site-banner-bar { top: 12rem; position: absolute; }
@@ -122,7 +122,6 @@ Catalog color
     vertical-align: middle; 
 }
 #site-banner img { 
-    /* TODO see how to put it on smaller screens */
     background-color: white;
     margin-bottom: 1rem;
     padding: 2rem;
@@ -227,24 +226,47 @@ Catalog color
 /********** HOME **********/
 
 /********** ABOUT **********/
-.section#about .banner { width: 100%; /*display: flex; height: 40rem;*/ }
-.section#about .banner img { width: 33%; padding: 0; }
-.section#about .banner img:first-child { margin-left: 0.2rem; }
-/*
-.section#about .banner img:last-child { float: right; width: 33%; }
-*/
+.section#about .banner { 
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0; 
+    padding: 0; 
+    max-height: 28rem;
+    width: 100%; 
+}
+.section#about .banner img { 
+    flex-basis: 33%;
+    flex-grow: 1;
+}
+
 #about-title { margin-bottom: 3rem; margin-left: 5rem; margin-top: 5rem; }
-.about-blocks { margin-top: 7rem; width: 100%; }
-.about-blocks ul, .reason-blocks ul { list-style-type: none; }
-.about-blocks ul li, .reason-blocks ul li {
+
+@media only screen and (max-width: 1030px) {
+    #about-title { margin-left: 0rem; text-align: center; }
+    .section#about .banner { 
+        flex-flow: column wrap; 
+        max-height: none;
+    }
+    .section#about .banner img { 
+        flex: 1 auto;
+        margin: auto;
+        max-height: 50rem;
+        max-width: 75rem;
+    }
+}
+
+.about-blocks { 
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 7rem; 
+    width: 100%; 
+}
+.about-block { display: inline-block; flex: 1 50%; }
+.reason-blocks ul { list-style-type: none; }
+.reason-blocks ul li {
     height: 17.4rem;
     width: 100%; 
 }
-.about-blocks ul li {
-    border-bottom: 0.1rem solid gray;
-}
-.about-blocks ul li,
-/*.reason-blocks ul li { padding-top: 3rem; padding-bottom: 3rem; }*/
 .reason-blocks ul li { width: 90%; }
 .reason-blocks ul li .reason-block { width: 35rem; }
 .reason-blocks ul li:first-child { padding-top: 3rem; }
@@ -263,32 +285,11 @@ Catalog color
     border-right: 0.1rem solid gray;
 }
 .reason-blocks ul li:last-child .reason-block { text-align: center; width: 100%; }
-.about-blocks ul li:last-child { border: none; padding-top: 3rem; }
-.about-blocks ul li .about-block {
-    display: inline-block;
-    position: absolute;
-    width: 50%;
-}
-.about-blocks ul li:last-child .about-block { 
-    text-align: center; 
-    width: 100%; 
-}
-/*
-.about-blocks ul li:last-child .about-block .about-icon,
-.about-blocks ul li:last-child .about-block .about-block-text {
-    display: block;
-    text-align: center;
-    width: 100%;
-}
-*/
-.about-blocks ul li .about-block:first-child { left: 0; }
-.about-blocks ul li .about-block:last-child { right: 0; }
+
 .about-icon {
     background-repeat: no-repeat;
-    float: left;
     height: 17rem;
     width: 17rem;
-    margin-left: 3rem;
 }
 #ab-1 {
     background-image: url('/wp-content/themes/magnumific/pictures/Grafic/1.png');
@@ -306,15 +307,8 @@ Catalog color
     background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Grafic.png');
 }
 .about-block-text { 
-    bottom: 0;
-    float: left;
     font-size: 1.2rem;
-    margin-left: 5rem;
-    margin-right: 3rem;
-    margin-top: 5rem;
-    max-width: 35rem; 
-    position: relative;
-    text-align: left; 
+    max-width: 20rem; 
 }
 #reason-list { margin-left: 5rem; margin-top: 5rem; }
 .reason-block { display: inline-block; margin: 2rem 0rem 0rem 2rem; }
