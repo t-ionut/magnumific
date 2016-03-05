@@ -164,8 +164,21 @@ Catalog color
         top: 3rem;
         left: 1.5rem;
     }
-    #short-desc { margin-top: 5.5rem; margin-right: 1.5rem; max-width: 20rem; }
+    #short-desc { 
+        margin-top: 5.5rem; 
+        margin-right: 1.5rem; 
+        max-width: 20rem; 
+    }
     #short-desc p.title { font-size: 2rem; }
+    #short-desc p.subtitle { font-size: 1rem; }
+}
+@media only screen and (max-width: 370px) {
+    #short-desc { 
+        margin-top: 6rem; 
+        margin-right: 0rem; 
+        max-width: 20rem; 
+    }
+    #short-desc p.title { font-size: 1.5rem; }
     #short-desc p.subtitle { font-size: 1rem; }
 }
 /********** BANNER **********/
@@ -183,8 +196,9 @@ Catalog color
 .section-anchor { 
     background-repeat: no-repeat;
     display: block;
-    height: 17rem;
-    width: 17rem;
+    height: 15rem;
+    width: 15rem;
+    margin: 0rem;
 }
 .navitem-expanded {
     height: 33rem;
@@ -258,10 +272,54 @@ Catalog color
 .about-blocks { 
     display: flex;
     flex-flow: row wrap;
-    margin-top: 7rem; 
+    margin: 7rem auto auto auto;
     width: 100%; 
 }
-.about-block { display: inline-block; flex: 1 50%; }
+.about-block { 
+    align-items: center;
+    display: inline-flex; 
+    justify-content: flex-start;
+}
+.about-icon {
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 15rem;
+    margin: 1rem;
+}
+#ab-1 {
+    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/1.png');
+}
+#ab-2 {
+    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Depozit.png');
+}
+#ab-3 {
+    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Distributie.png');
+}
+#ab-4 {
+    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Sucursale.png');
+}
+#ab-5 {
+    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Grafic.png');
+}
+.about-block-text { 
+    align-self: center;
+    flex: 3 auto;
+    font-size: 1.2rem;
+    max-width: 40rem; 
+    padding-left: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    .about-block-text {
+        max-width: 30rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .about-block {
+        display: flex;
+        flex-flow: column wrap;
+        margin: auto;
+    }
+}
 .reason-blocks ul { list-style-type: none; }
 .reason-blocks ul li {
     height: 17.4rem;
@@ -286,30 +344,6 @@ Catalog color
 }
 .reason-blocks ul li:last-child .reason-block { text-align: center; width: 100%; }
 
-.about-icon {
-    background-repeat: no-repeat;
-    height: 17rem;
-    width: 17rem;
-}
-#ab-1 {
-    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/1.png');
-}
-#ab-2 {
-    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Depozit.png');
-}
-#ab-3 {
-    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Distributie.png');
-}
-#ab-4 {
-    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Sucursale.png');
-}
-#ab-5 {
-    background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Grafic.png');
-}
-.about-block-text { 
-    font-size: 1.2rem;
-    max-width: 20rem; 
-}
 #reason-list { margin-left: 5rem; margin-top: 5rem; }
 .reason-block { display: inline-block; margin: 2rem 0rem 0rem 2rem; }
 .reason-block:first-child { text-align: left; }
