@@ -101,6 +101,9 @@ Catalog color
     #topnav nav a.smooth { display: none; }
     #topnav nav a.menu { display: inline-block; }
 }
+@media only screen and (max-width: 625px) {
+    #topnav a { display: none; }
+}
 /********** TOP NAV **********/
 
 /********** BANNER **********/
@@ -152,6 +155,17 @@ Catalog color
         top: 3rem;
     }
     #short-desc { margin-top: 0.8rem; }
+    #short-desc p.title { font-size: 2rem; }
+    #short-desc p.subtitle { font-size: 1rem; }
+}
+@media only screen and (max-width: 625px) {
+    #site-banner-bar { top: 0.7rem; }
+    .banner-bar { height: 15rem; }
+    #site-banner img {
+        top: 3rem;
+        left: 2rem;
+    }
+    #short-desc { margin-top: 5.5rem; margin-right: 2rem; max-width: 20rem; }
     #short-desc p.title { font-size: 2rem; }
     #short-desc p.subtitle { font-size: 1rem; }
 }
