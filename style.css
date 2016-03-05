@@ -249,8 +249,11 @@ Catalog color
     width: 100%; 
 }
 .section#about .banner img { 
+    flex: 1 auto;
+    /*
     flex-basis: 33%;
     flex-grow: 1;
+    */
 }
 
 #about-title { margin-bottom: 3rem; margin-left: 5rem; margin-top: 5rem; }
