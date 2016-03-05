@@ -81,11 +81,12 @@ Catalog color
 */
 #topnav { 
     font-size: 1.8rem; 
-    padding: 1.2rem 2rem 1rem 2rem;
+    padding: 1.2rem 0rem 1rem 0rem;
     position: fixed; 
     width: 100%;
     z-index: 1000;
 }
+#topnav a { margin-left: 2rem; }
 #topnav nav { float: right; margin-right: 4rem; }
 #topnav nav a.menu { display: none; }
 #topnav nav a { 
@@ -302,7 +303,7 @@ Catalog color
     text-align: left; 
 }
 #reason-list { margin-left: 5rem; margin-top: 5rem; }
-.reason-block { display: inline-block; margin: 2rem 2rem 0rem 2rem; }
+.reason-block { display: inline-block; margin: 2rem 0rem 0rem 2rem; }
 .reason-block:first-child { text-align: left; }
 .reason-block:nth-child(2n) { text-align: center; }
 .reason-block:nth-child(3n) { text-align: right; }
