@@ -309,17 +309,15 @@ Catalog color
     padding-left: 2rem;
 }
 @media only screen and (max-width: 600px) {
-    .about-block-text {
-        max-width: 30rem;
-    }
+    .about-block-text { max-width: 30rem; }
 }
 @media only screen and (max-width: 500px) {
     .about-block {
         display: flex;
         flex-flow: column wrap;
         margin: auto;
-        padding: 0rem;
     }
+    .about-block-text { padding: 0rem; }
 }
 .reason-blocks ul { list-style-type: none; }
 .reason-blocks ul li {
