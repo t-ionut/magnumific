@@ -468,17 +468,39 @@ a { text-decoration: none; }
 /********** FORMS **********/
 form p input[type="email"],
 form p input[type="file"],
+form p input[type="tel"],
 form p input[type="text"],
+form p select,
 form p textarea {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
     border-color: lightgray;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     border-style: solid;
+    font-family: 'ZonaPro-Thin';
     height: 2.5rem;
-    max-width: 10rem;
+    max-width: 20rem;
 }
 form p textarea { height: auto; }
+form p input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+}
+form p input[type="file"]::before {
+    content: 'Browse';
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #5a5a5a, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
 /*
 #wpcf7-f65-o1 { width: 50%; }
 #wpcf7-f65-o1 form { margin: 5rem 0rem 5rem 10rem; }
