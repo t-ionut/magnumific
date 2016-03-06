@@ -482,6 +482,7 @@ form p textarea {
     height: 2.5rem;
     width: 20rem;
 }
+form p input[type="submit"] { width: auto; }
 form p textarea { height: auto; }
 form p input[type="file"]::-webkit-file-upload-button {
     visibility: hidden;
