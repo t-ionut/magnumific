@@ -467,7 +467,6 @@ a { text-decoration: none; }
 
 /********** FORMS **********/
 form p input[type="email"],
-form p input[type="file"],
 form p input[type="tel"],
 form p input[type="text"],
 form p select,
