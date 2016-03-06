@@ -490,8 +490,9 @@ form p input[type="file"]::before {
     background-color: lightgray;
     border-radius: 0.5rem;
     font-family: 'ZonaPro-Thin';
-    height: 2.5rem;
+    height: 1.3rem;
     width: 7.5rem;
+    padding: 0.6rem 0.8rem;
 }
 
 /*
