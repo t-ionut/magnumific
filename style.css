@@ -451,7 +451,7 @@ a { text-decoration: none; }
 .section#career form p input[type="email"],
 .section#career form p input[type="tel"],
 .section#career form p input[type="text"],
-.section#career form p select { width: 20rem; }
+.section#career form p select { width: 30rem; }
 /********** CAREER **********/
 
 /********** CONTACT **********/
