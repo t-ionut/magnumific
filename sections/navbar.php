@@ -1,6 +1,6 @@
 <div class="blue" id="topnav">
     <a href="<?php echo home_url(); ?>">
-        <img src="/wp-content/themes/magnumific/pictures/Logo/navbar-logo.png">
+        <img class="zoomable" src="/wp-content/themes/magnumific/pictures/Logo/navbar-logo.png">
     </a>
     <nav>
         <a class="smooth" href="#">Acasă</a>
