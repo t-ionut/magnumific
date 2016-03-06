@@ -381,9 +381,26 @@ Catalog color
     max-width: 25rem;
     width: 100%;
 }
+@media only screen and (max-width: 635px) {
+    .partner-logo img { max-height: 10rem; max-width: 15rem; }
+}
+@media only screen and (max-width: 435px) {
+    .partner-logo img { max-height: 5rem; max-width: 10rem; }
+}
 /********** PARTNERS **********/
 
 /********** TEAM **********/
+.team {
+    display: flex;
+    flex-flow: row wrap;
+    /*
+    align-items: stretch;
+    */
+    justify-content: space-around;
+    width: 100%;
+}
+/* Hide team photos section for now */
+.team-member { display: none; }
 /********** TEAM **********/
 
 /********** CAREER **********/
