@@ -46,5 +46,5 @@ function mgm_customize( $wp_customize ) {
 add_action( 'customize_register', 'mgm_customize' );
 
 function get_map() {
-    echo file_get_contents( home_url( '/wp-content/themes/magnumific/svg/optimised.svg' ) );
+    echo file_get_contents( home_url( '/wp-content/themes/magnumific/svg/romania.svg' ) );
 }
