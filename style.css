@@ -488,12 +488,11 @@ form p input[type="file"]::-webkit-file-upload-button {
 form p input[type="file"]::before {
     content: 'Browse';
     display: inline-block;
-    background-color: #5a5a5a;
+    background-color: lightgray;
     border-radius: 0.5rem;
-    color: white;
     height: 2.5rem;
     width: 7.5rem;
-    padding: 0.5rem 0.8rem;
+    padding: 0.6rem 0.8rem;
 }
 
 /*
