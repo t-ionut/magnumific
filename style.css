@@ -467,6 +467,7 @@ a { text-decoration: none; }
 
 /********** FORMS **********/
 form p input[type="email"],
+form p input[type="submit"],
 form p input[type="tel"],
 form p input[type="text"],
 form p select,
@@ -476,6 +477,7 @@ form p textarea {
     border-color: lightgray;
     border-radius: 0.5rem;
     border-style: solid;
+    border-width: thin;
     font-family: 'ZonaPro-Thin';
     height: 2.5rem;
     width: 20rem;
