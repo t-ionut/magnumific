@@ -468,7 +468,10 @@ a { text-decoration: none; }
 .section#contact form input[type='file'], {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
+    border-color: lightgray;
     border-radius: 5px;
+    border-style: solid;
+    height: 2.5rem;
 }
 /********** CONTACT **********/
 
