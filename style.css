@@ -47,7 +47,7 @@
 .section-separator { 
     background-color: #151728; 
     height: 2rem;
-    margin: 2rem 0rem 2rem 0rem;
+    margin: 8rem 0rem 8rem 0rem;
     width: 100%;
 }
 /********** SEPARATORS **********/
@@ -257,7 +257,7 @@ Catalog color
 }
 .section#about .banner img { flex: 1 33%; }
 .section#about .banner img:last-child { flex: 1 34%; }
-#about-title { margin: 5rem 0rem 5rem 5rem; }
+#about-title { padding: 3rem 0rem 3rem 5rem; }
 
 @media only screen and (max-width: 1030px) {
     #about-title { margin-left: 0rem; text-align: center; }
@@ -351,11 +351,6 @@ Catalog color
     display: inline-flex; 
     margin: 2rem; 
 }
-/*
-.reason-block:first-child { text-align: left; }
-.reason-block:nth-child(2n) { text-align: center; }
-.reason-block:nth-child(3n) { text-align: right; }
-*/
 .reason-num { 
     display: inline-block;
     font-size: 5rem; 
@@ -370,8 +365,21 @@ Catalog color
 /********** ABOUT **********/
 
 /********** PARTNERS **********/
-.section#partners .partners ul { list-style-type: none; }
-.partner-logo img {/* width: 30rem; height: 15.4rem;*/ }
+.partners { 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 4rem 0 4rem 0;
+    width: 100%;
+}
+.partner-logo { align-self: center; }
+.partner-logo img {
+    margin: auto;
+    margin: 2rem 3rem 2rem 3rem;
+    max-height: 15rem;
+    max-width: 25rem;
+    width: 100%;
+}
 /********** PARTNERS **********/
 
 /********** TEAM **********/
@@ -415,6 +423,7 @@ Catalog color
 /*
 div.about-block, div.about-block > *, 
 */
+/*
 div.partner-logo, div.team-icon { display: inline-block; }
 
 
@@ -424,6 +433,7 @@ div.team-member { width: 300px; height: 400px; background-color: gray; display: 
 div.team-member > p { font-size: 20px; color: white; text-align: center; }
 
 
+*/
 /*
 
 .blue-bar, .blue-bar a {

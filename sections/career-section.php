@@ -8,3 +8,4 @@
         <?php echo do_shortcode( '[contact-form-7 id="65" title="Alege postul dorit și trimite CV-ul direct de pe site!"]' ); ?>
     </div>
 </div>
+<div class="section-separator"></div>

@@ -42,3 +42,4 @@
         <p class="title">Mereu de încredere!</p>
     </div>
 </div>
+<div class="section-separator"></div>
