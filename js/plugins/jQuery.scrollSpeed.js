@@ -31,6 +31,7 @@
             if (scrollY) {
                 
                 view = $window.height();
+                console.log("View " + view + ", deltaY " + deltaY + ", detail " + detail + ", scrollY " + scrollY + ", scrollX " + scrollX + ", root " + root);
                     
                 if (deltaY < 0 || detail > 0)
             
