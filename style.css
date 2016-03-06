@@ -393,14 +393,16 @@ Catalog color
 .team {
     display: flex;
     flex-flow: row wrap;
-    /*
-    align-items: stretch;
-    */
     justify-content: space-around;
     width: 100%;
 }
 /* Hide team photos section for now */
 .team-member { display: none; }
+/* Hide team photos section for now */
+.section#team p { 
+    margin: 5rem 0rem 5rem 0rem;
+    text-align: center; 
+}
 /********** TEAM **********/
 
 /********** CAREER **********/

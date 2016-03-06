@@ -6,7 +6,16 @@ function mgm_scripts() {
 add_action( 'wp_enqueue_scripts', 'mgm_scripts' );
 
 function mgm_head() {
-	echo '<style type="text/css">body.mgm-body-logged-in #topnav { top: 32px; }</style>';
+    $style = '<style type="text/css">';
+    $style .= 'body.mgm-body-logged-in #topnav { top: 3.2rem; }'; 
+    $style .= 'body.mgm-body-logged-out #topnav { top: 0rem; }';
+    $style .= '@media only screen and (max-width: 782px) {';
+    $style .= 'body.mgm-body-logged-in #topnav { top: 4.6rem; }';
+    $style .= '} @media only screen and (max-width: 600px) {';
+    $style .= 'body.mgm-body-logged-in #topnav { top: 0rem; }}';
+    $style .= '</style>';
+
+    echo $style;
 }
 add_action( 'wp_head', 'mgm_head' );
 
@@ -34,9 +43,3 @@ function mgm_customize( $wp_customize ) {
 */
 }
 add_action( 'customize_register', 'mgm_customize' );
-
-function debug( $e ) {
-    error_log( 'DEBUG ---> ' . serialize( $e ) );
-}
-add_action( 'wp_mail_failed', 'debug' );
-
