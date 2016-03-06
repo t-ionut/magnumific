@@ -355,6 +355,7 @@ Catalog color
     display: inline-block;
     font-size: 5rem; 
     height: 10.5rem;
+    margin-left: 1rem;
     margin-right: 2rem;
 }
 .reason-block .reason-num, .reason-block .reason-block-text {
@@ -383,9 +384,6 @@ Catalog color
 /********** PARTNERS **********/
 
 /********** TEAM **********/
-.section#team ul { list-style-type: none; }
-.section#team ul li { display: none; }
-.section#team ul li:first-child { display: inline-block; }
 /********** TEAM **********/
 
 /********** CAREER **********/
