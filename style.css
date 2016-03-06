@@ -463,20 +463,22 @@ a { text-decoration: none; }
 }
 #map svg a path { fill: #5a5a5a; }
 #map svg a path:hover { fill: #151728; }
-.section#contact form p input[type="email"],
-.section#contact form p input[type="file"],
-.section#contact form p input[type="text"],
-.section#contact form p textarea {
+/********** CONTACT **********/
+
+/********** FORMS **********/
+form p input[type="email"],
+form p input[type="file"],
+form p input[type="text"],
+form p textarea {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-color: lightgray;
     border-radius: 5px;
     border-style: solid;
     height: 2.5rem;
+    max-width: 10rem;
 }
-/********** CONTACT **********/
-
-/********** FORMS **********/
+form p textarea { height: auto; }
 /*
 #wpcf7-f65-o1 { width: 50%; }
 #wpcf7-f65-o1 form { margin: 5rem 0rem 5rem 10rem; }
