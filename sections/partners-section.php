@@ -9,7 +9,6 @@
         </div>
         <div class="partner-logo zoomable">
             <img src="/wp-content/themes/magnumific/pictures/Logo/cropped-raidex-logo.jpg">
-            <!--<img src="/wp-content/themes/magnumific/pictures/Logo/logo_de24.png">-->
         </div>
         <div class="partner-logo zoomable">
             <img src="/wp-content/themes/magnumific/pictures/Logo/yato.jpg">

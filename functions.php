@@ -20,8 +20,8 @@ function mgm_head() {
 add_action( 'wp_head', 'mgm_head' );
 
 function mgm_footer() {
-    wp_enqueue_script( 'location', get_stylesheet_directory_uri() . '/js/location.js' );
-    wp_enqueue_script( 'google-maps', 'https://maps.googleapis.com/maps/api/js?callback=initMap' );
+    #wp_enqueue_script( 'location', get_stylesheet_directory_uri() . '/js/location.js' );
+    #wp_enqueue_script( 'google-maps', 'https://maps.googleapis.com/maps/api/js?callback=initMap' );
     wp_enqueue_script( 'scrollSpeed', get_stylesheet_directory_uri() . '/js/plugins/jQuery.scrollSpeed.js', array( 'jquery' ) );
     wp_enqueue_script( 'smoothscroll', get_stylesheet_directory_uri() . '/js/smoothscroll.js', array( 'jquery', 'scrollSpeed' ) );
 }
@@ -44,3 +44,7 @@ function mgm_customize( $wp_customize ) {
 */
 }
 add_action( 'customize_register', 'mgm_customize' );
+
+function get_map() {
+    echo file_get_contents( home_url( '/wp-content/themes/magnumific/svg/optimised.svg' ) );
+}
