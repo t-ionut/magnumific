@@ -55,8 +55,10 @@
 /********** UTILS **********/
 a.anchor { 
     display: block;
+    /*
     position: relative; 
     top: -10.6rem; 
+    */
     visibility: hidden;
 }
 .zoomable {
