@@ -490,8 +490,10 @@ form p input[type="file"]::before {
     display: inline-block;
     background-color: #5a5a5a;
     border-radius: 0.5rem;
+    color: white;
     height: 2.5rem;
     width: 7.5rem;
+    padding: 0.5rem 0.8rem;
 }
 
 /*
