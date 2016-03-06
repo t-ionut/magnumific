@@ -466,6 +466,8 @@ a { text-decoration: none; }
 /********** CONTACT **********/
 
 /********** FORMS **********/
+form p { margin: 2rem 0rem; }
+form p input, form p select, form p textarea { margin-top: 1rem; }
 form p input[type="email"],
 form p input[type="submit"],
 form p input[type="tel"],
