@@ -488,7 +488,7 @@ form p input[type="file"]::-webkit-file-upload-button {
 form p input[type="file"]::before {
     content: 'Browse';
     display: inline-block;
-    background: -webkit-linear-gradient(top, #5a5a5a, #e3e3e3);
+    background-color: #5a5a5a;
     border-radius: 0.5rem;
     height: 2.5rem;
     width: 7.5rem;
