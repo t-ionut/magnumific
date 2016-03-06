@@ -463,6 +463,13 @@ a { text-decoration: none; }
 }
 #map svg a path { fill: #5a5a5a; }
 #map svg a path:hover { fill: #151728; }
+.section#contact form input[type=text],
+.section#contact form input[type=textarea],
+.section#contact form input[type=file], {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
 /********** CONTACT **********/
 
 /********** FORMS **********/
