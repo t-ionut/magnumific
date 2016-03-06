@@ -191,8 +191,6 @@ Catalog color
     justify-content: center;
     margin: 5rem 0rem 5rem 0rem;
 }
-.nav-expanded ul { list-style-type: none; }
-.nav-expanded ul li { display: inline-block; }
 .section-anchor { 
     background-repeat: no-repeat;
     display: block;
@@ -201,20 +199,25 @@ Catalog color
     margin: 0rem;
 }
 .navitem-expanded {
-    height: 33rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
     margin: 1rem 4rem 1rem 4rem;
 }
-.nav-expanded ul li:not(:first-child) {
-    border-left: 0.1rem solid black;
-}
-.nav-expanded ul li button {
+.navitem-expanded a { margin: 0; }
+.navitem-expanded button {
+    align-self: center;
     background-color: #5a5a5a;
     border: none;
     color: white;
     font-family: 'ZonaPro-Thin';
     font-size: 1.5rem;
+    font-weight: bold;
+    height: 3.6rem;
     margin: 2rem 0rem 2rem 0rem;
     padding: 1rem 2rem 1rem 2rem;
+    text-align: center;
+    width: 10.5rem;
 }
 .section-anchor.about { 
     background-image: url('/wp-content/themes/magnumific/pictures/Grafic/1.png'); 
@@ -230,13 +233,17 @@ Catalog color
 }
 .navitem-title { 
     font-size: 2.5rem; 
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .navitem-excerpt { 
-    margin-top: 2rem;
-    max-width: 17rem; 
+    align-self: center;
+    font-size: 1.5rem;
+    height: 8rem;
+    margin-top: 1rem;
+    max-width: 15rem; 
 }
+.navitem-title, .navitem-excerpt { text-align: center; }
 /********** HOME **********/
 
 /********** ABOUT **********/
