@@ -489,7 +489,7 @@ form p textarea {
     height: 2.5rem;
     width: 20rem;
 }
-form p input[type="submit"] { width: auto; }
+form p input[type="submit"] { border-radius: 0rem; width: auto; }
 form p textarea { height: auto; }
 form p input[type="file"]::-webkit-file-upload-button {
     visibility: hidden;
@@ -498,7 +498,7 @@ form p input[type="file"]::before {
     content: 'Browse';
     display: inline-block;
     background-color: lightgray;
-    border-radius: 0.5rem;
+    border-radius: 0rem;
     font-family: 'ZonaPro-Thin';
     height: 1.3rem;
     width: 7.5rem;
