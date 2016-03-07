@@ -4,6 +4,7 @@ show_admin_bar( true );
 get_header();
 
 get_template_part( 'sections/navbar' );
+get_template_part( 'sections/slide-bar' );
 get_template_part( 'sections/banner' );
 get_template_part( 'sections/home-section' );
 get_template_part( 'sections/about-section' );

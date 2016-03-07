@@ -81,8 +81,11 @@ ul, ol, dl, li, dt, dd, p, blockquote,
 pre, form, fieldset, table, th, td { margin: 0; padding: 0; }
 html { font-size: 62.5%; }
 body { 
+    background-color: white;
     font-family: 'ZonaPro-Thin'; 
     font-size: 1.6rem;
+    position: relative;
+    right: 0;
     text-decoration: none; 
 }
 a { text-decoration: none; }
@@ -121,6 +124,18 @@ a { text-decoration: none; }
     #topnav a { display: none; }
 }
 /********** TOP NAV **********/
+
+/********** SLIDE MENU **********/
+.slide-menu {
+    background: #151728;
+    right: -30rem;  /* start off behind the scenes */
+    height: calc(100%);
+    padding-top: 5rem;
+    position: fixed;
+    width: 30rem;
+    z-index: 250;
+}
+/********** SLIDE MENU **********/
 
 /********** BANNER **********/
 #site-banner { 
@@ -396,6 +411,12 @@ a { text-decoration: none; }
     max-height: 15rem;
     max-width: 25rem;
     width: 100%;
+}
+.partner-logo .description {
+    display: none;
+    padding: 4rem;
+    position: absolute;
+    top: 0;
 }
 @media only screen and (max-width: 635px) {
     .partner-logo img { max-height: 10rem; max-width: 15rem; }
