@@ -5,11 +5,11 @@
     </div>
     <div class="blue banner-bar title">Alătură-te echipei!</div>
     <div class="jobs">
-        <div class="job-position">
-            <img id="telemarketing-logo" class="zoomable" src="/wp-content/themes/magnumific/pictures/Grafic/Telemarketing.png">
+        <div id="telemarketing-position" class="job-position">
             <p class="title">Telemarketing</p>
+            <img id="telemarketing-logo" class="zoomable" src="/wp-content/themes/magnumific/pictures/Grafic/Telemarketing.png">
         </div>
-        <div class="job-position">
+        <div id="sales-position" class="job-position">
             <p class="title">Agent de vânzări</p>
             <div id="sales-desc" class="description blue">
                 <p class="bold">Agent de vanzari</p>

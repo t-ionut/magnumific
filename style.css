@@ -461,6 +461,7 @@ a { text-decoration: none; }
     align-items: center;
     display: flex;
     flex-flow: row wrap;
+    width: 54.4rem;
 }
 .job-position img {
     margin: 0rem 2rem 0rem 2rem;
@@ -469,6 +470,16 @@ a { text-decoration: none; }
 }
 .job-position p {
     margin: 0rem 2rem 0rem 2rem;
+}
+#telemarketing-position img { order: 1; }
+#telemarketing-position p { order: 2; }
+#sales-position img { order: 2; }
+#sales-position p { order: 1; }
+@media only screen and (max-width: 1058px) {
+    .job-position { margin: 2rem 0rem 2rem 0rem; }
+    .job-position p { align-self: center; }
+    #telemarketing-position img, #sales-position img { order: 1; }
+    #telemarketing-position p, #sales-position p { order: 2; }
 }
 .job-position .description {
     display: none;
