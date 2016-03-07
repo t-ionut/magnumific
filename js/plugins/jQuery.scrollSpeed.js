@@ -10,7 +10,7 @@
             $window = $(window),
             $body = $('html, body'),
             option = easing || 'default',
-            root = (window.pageYOffset || document.scrollTop)  - (document.clientTop || 0),
+            root = (window.pageYOffset || document.scrollTop || document.body.scrollTop)  - (document.clientTop || document.body.clientTop || 0),
             scroll = false,
             scrollY,
             scrollX,
