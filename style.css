@@ -401,7 +401,7 @@ a { text-decoration: none; }
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 4rem 0 4rem 0;
+    margin: 8rem 0 8rem 0;
     width: 100%;
 }
 .partner-logo { align-self: center; }
@@ -416,7 +416,8 @@ a { text-decoration: none; }
     display: none;
     padding: 4rem;
     position: absolute;
-    top: 0;
+    top: -10rem;
+    z-index: 250;
 }
 @media only screen and (max-width: 635px) {
     .partner-logo img { max-height: 10rem; max-width: 15rem; }
@@ -468,6 +469,13 @@ a { text-decoration: none; }
 }
 .job-position p {
     margin: 0rem 2rem 0rem 2rem;
+}
+.job-position .description {
+    display: none;
+    padding: 4rem;
+    position: absolute;
+    width: 30rem;
+    z-index: 250;
 }
 .section#career form { margin-left: 7.5rem; }
 .section#career form p input[type="email"],

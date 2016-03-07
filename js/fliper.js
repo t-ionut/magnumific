@@ -49,4 +49,11 @@ $(document).ready(function() {
     $('#hofmann-desc').click(function() {
         $('#hofmann-desc').fadeOut();
     });
+
+    $('#sales-logo').click(function() {
+        $('#sales-desc').fadeIn();
+    });
+    $('#sales-desc').click(function() {
+        $('#sales-desc').fadeOut();
+    });
 });
