@@ -51,6 +51,7 @@
                 });
             }
             
+            /*
             if (scrollX) {
                 
                 view = $window.width();
@@ -73,6 +74,7 @@
                 
                 });
             }
+            */
             
             return false;
             
