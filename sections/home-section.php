@@ -1,8 +1,21 @@
 <div class="section" id="home">
     <a class="anchor" name="acasa"></a>
-    <div class="banner">
-        <img src="/wp-content/themes/magnumific/pictures/Poze/tire-banner-compressed-cropped-text-v2.jpg">
-    </div>
+    <section id="homesection">
+        <div class="banner">
+            <!--data-center="background-position: 50% 0rem;"
+            data-top-bottom="background-position: 50% -10rem;"
+            data-anchor-target="homesection"-->
+            <div class="container">
+                <div class="content">
+                    <!--data-center="bottom: 20rem; opacity: 1"
+                    data-top="bottom: 120rem; opacity: 0"
+                    data-anchor-target="#homesection p"-->
+                    <p class="title">Din 1993 partener de încredere</p>
+                </div>
+            </div>
+            <!--<img src="/wp-content/themes/magnumific/pictures/Poze/tire-banner-compressed-cropped-text-v2.jpg">-->
+        </div>
+    </section>
     <div class="nav-expanded">
         <div class="navitem-expanded zoomable">
             <a href="#despre" class="about section-anchor"></a>

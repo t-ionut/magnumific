@@ -2,6 +2,8 @@
 
 function mgm_scripts() {
 	wp_enqueue_style( 'stylesheet', get_stylesheet_uri() );
+    #wp_enqueue_script( 'skrollr', get_stylesheet_directory_uri() . '/js/plugins/skrollr.min.js', array( 'jquery' ) );
+    #wp_enqueue_script( 'skrollr-magnum', get_stylesheet_directory_uri() . '/js/skrollr-magnum.js', array( 'jquery', 'skrollr' ) );
 }
 add_action( 'wp_enqueue_scripts', 'mgm_scripts' );
 
