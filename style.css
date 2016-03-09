@@ -223,7 +223,7 @@ a { text-decoration: none; }
     width: 15rem;
     margin: 0rem;
 }
-.navitem-expanded {
+.navitem-expanded {    
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -298,10 +298,11 @@ a { text-decoration: none; }
     width: 100%;
 }
 .section#about .banner img { 
-    -webkit-box-flex: 1; 
-    -webkit-flex: 1 33%; 
-    -ms-flex: 1 33%; 
-    flex: 1 33%; 
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 33%;
+    -ms-flex: 1 33%;
+    flex: 1 33%;
+    width: 33%;
 }
 .section#about .banner img:last-child { 
     -webkit-box-flex: 1; 
