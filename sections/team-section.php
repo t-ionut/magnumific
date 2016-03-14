@@ -32,6 +32,6 @@
             <p>Member picture here</p>
         </div>
     </div>
-    <p class="title">Mereu de încredere!</p>
+    <p class="title"><?php _e( 'Mereu de încredere!', 'mgm' ); ?></p>
 </div>
 <div class="section-separator"></div>

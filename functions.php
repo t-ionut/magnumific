@@ -1,5 +1,21 @@
 <?php
 
+add_filter( 'locale', 'set_lang' );
+function set_lang( $lang ) {
+    if( isset( $_GET['mgmlang'] ) ) {
+        if( 'en' == $_GET['mgmlang'] )
+            $lang = 'en_US';
+        elseif ( 'ro' == $_GET['mgmlang'] )
+            $lang = 'ro_RO';
+        else
+            $lang = 'ro_RO';
+    } else { $lang = 'ro_RO'; }
+
+    return $lang;
+}
+
+load_theme_textdomain( 'mgm' );
+
 function mgm_scripts() {
 	wp_enqueue_style( 'stylesheet', get_stylesheet_uri() );
     #wp_enqueue_script( 'skrollr', get_stylesheet_directory_uri() . '/js/plugins/skrollr.min.js', array( 'jquery' ) );
@@ -52,4 +68,11 @@ add_action( 'customize_register', 'mgm_customize' );
 
 function get_map() {
     echo file_get_contents( home_url( '/wp-content/themes/magnumific/svg/romania.svg' ) );
+}
+
+function mgm_keywords( $text, $keywords = array() ) {
+    foreach( $keywords as $keyword )
+        $text = str_replace( $keyword, "<span class='bold keyword'>$keyword</span>", $text );
+
+    return $text;
 }
