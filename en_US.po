@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: magnumific\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-13 17:14+0200\n"
+"PO-Revision-Date: Mon Mar 14 2016 12:04:33 GMT+0200 (EET)\n"
+"Last-Translator: magnum <tolci.ionut@gmail.com>\n"
+"Language-Team: Ionut Tolci <tolci.ionut@gmail.com>\n"
+"Language: English\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Loco-Target-Locale: en_US"
+
+msgid "10 motive"
+msgstr "10 reasons"
+
+msgid ""
+"Titam pune pe primul loc calitatea înainte de toate, aşa cum o spune şi "
+"sloganul “Quality above all”. Produsele de vulcanizare Titam dispun de "
+"calitate OEM. Cerea pentru produsele Titam este într-o continuă creştere de "
+"la an la an datorită fiabilităţii şi nivelului ridicat al calităţii."
+msgstr ""
+
+msgid ""
+"Raidex este unul dintre cei mai importanţi producători mondiali de creioane "
+"şi coloranţi pentru marcarea animalelor.Compania comercializează produse "
+"destinate marcării, însemnării animalelor, cărnii şi a altor produse animale "
+"şi nu numai. Iar numărul de clienţi mulţumiţi ce utilizează produsele Raidex "
+"este în continua creştere."
+msgstr ""
+
+msgid ""
+"YATO este un brand polonez cunoscut în întreaga lume pentru preţurile bune "
+"şi calitatea superioară a produselor oferite. Produsele Yato cuprind scule "
+"profesionale de uz manual ce sunt folosibile în mai mulet industrii precum:  "
+"industria auto, aviație, construcții, inginerie, petrol si gaze, prelucrarea "
+"metalelor și industria de prelucrare a lemnului."
+msgstr ""
+
+msgid ""
+"Perfect Equipment se remarcă prin calitate şi fiabilitate. Perfect Equipment "
+"este o marcă a grupului Wegmann auto, producătorul numărul unu mondial de "
+"contragreutăţi. Gama de contragreutăţi oferite de Perfect Equipment cuprinde:"
+" contragreutăți din zinc, contragreutăți din oțel și contragreutăți din "
+"plumb."
+msgstr ""
+
+msgid ""
+"Alligator şi-a creat un renume în cadrul pieţei automotive prin intermediul "
+"calităţii şi punctualităţii de care dau dovadă. Compania se axează pe "
+"producţia de supape şi siteme de monitorizare a presiunii pentru anvelope "
+"autoturisme, camioane, biciclete, motociclete, utilaje agrigole, "
+"autoutilitare şi alte maşini industriale speciale."
+msgstr ""
+
+msgid ""
+"Italmatic este afacere de familie care se bazează pe valori solide înca din "
+"anul 1966. Producţia Italmatic, ce este centralizată în Italia, se axează pe "
+"trei ramuri distincte: produse de vulvanizare, cilindre şi autoclave. "
+msgstr ""
+
+msgid ""
+"Rema Tip Top oferă partenerilor industria automotivă soluţii inovative şi de "
+"înaltă calitate fiind lider mondial al sectorului de reparaţii anvelope. "
+"Printre produsele companiei se numără materiale pentru repararea "
+"echipamentelor, echipamente pentru atelier şi consumabile."
+msgstr ""
+
+msgid ""
+"Hofmann este o companie ce s-a facut cunoscută în lumea automotivelor  iar "
+"aproape fiecare producător major de automobile din lume se bazează pe "
+"contragreităţile marca Hofmann. Gama largă de produse şi fiabilitatea au "
+"transformat marca Hofmann într-un partener de încredere."
+msgstr ""
+
+msgid ""
+"Căutăm persoane dinamice, capabile de implicare în munca lor și dornice să "
+"activeze într-un mediu de lucru profesionist, orientat pe dezvoltarea "
+"continuă a celor care intră în echipa noastră. Pentru noi, serviciile și "
+"soluțiile aduse clienților sunt cea mai bună carte de vizită și cea mai mare "
+"responsabilitate."
+msgstr ""
+
+msgid "Candidatul trebuie să fie din următoarele orașe:"
+msgstr ""
+
+msgid "Candidatul trebuie să aibă:"
+msgstr ""
+
+msgid "cunoștințe tehnice în domeniul auto"
+msgstr ""
+
+msgid "experiență în vânzări"
+msgstr ""
+
+msgid "cunoașterea pieței locale de service-uri auto și vulcanizări"
+msgstr ""
+
+msgid "permis de conducere categoria B"
+msgstr ""
+
+msgid "disponibilitate pentru muncă de teren"
+msgstr ""
+
+msgid "bune abilități de comunicare și negociere"
+msgstr ""
+
+msgid "dorință de a învăța metode noi de lucru"
+msgstr ""
+
+msgid "Responsabilități:"
+msgstr ""
+
+msgid "promovarea produselor"
+msgstr ""
+
+msgid "dezvoltarea portofoliului de clienți"
+msgstr ""
+
+msgid "menținerea relațiilor cu clienții și gestionarea acestora"
+msgstr ""
+
+msgid "întocmirea și transmiterea de rapoarte periodice"
+msgstr ""
+
+msgid "Oferta (bonusuri, beneficii):"
+msgstr ""
+
+msgid "pachet salarial atractiv"
+msgstr ""
+
+msgid "bonusuri în funcție de performanță"
+msgstr ""
+
+msgid "mașină de serviciu"
+msgstr ""
+
+msgid "telefon mobil"
+msgstr ""
+
+msgid "pregătire tehnică de specialitate"
+msgstr ""
+
+msgid "training-uri de dezvoltare a abilităților specifice activității"
+msgstr ""
+
+msgid "foarte bune cunoștințe în domeniul IT"
+msgstr ""
+
+msgid "cunoștințe gestionare site"
+msgstr ""
+
+msgid "web design"
+msgstr ""
+
+msgid "cunoștințe Office"
+msgstr ""
+
+msgid "preluare comenzi telefonice și pe email"
+msgstr ""
+
+msgid "contactarea clienților"
+msgstr ""
+
+msgid "gestionarea siteului companiei"
+msgstr ""
+
+msgid "pentru a ne alege"
+msgstr "to choose us"
+
+msgid "Acasă"
+msgstr "Home"
+
+msgid "Despre noi"
+msgstr "About us"
+
+msgid "Parteneri"
+msgstr "Partners"
+
+msgid "Echipă"
+msgstr "Our team"
+
+msgid "Carieră"
+msgstr "Careers"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Lider în România"
+msgstr "Leader in Romania"
+
+msgid "pe piața de consumabile, piese și aparate pentru roți"
+msgstr "on the consumables, parts and equipment for wheels service market"
+
+msgid "Din 1993 partener de încredere"
+msgstr "Trusted partner since 1993"
+
+msgid ""
+"Lider în România pe piața de consumabile, piese și aparate pentru service "
+"roți."
+msgstr ""
+"Leader in Romania on the consumables, parts and equipment for wheels service "
+"market."
+
+msgid "Oferim o gamă complexă de produse și servicii clienților noștri."
+msgstr "We offer our clients a wide range of products and services."
+
+msgid ""
+"Ne dedicăm întru totul clienților noștri și le oferim toată atenția "
+"ncecesară."
+msgstr ""
+"We thoroughly dedicate ourselves towards our clients and offer them all the "
+"attention needed."
+
+msgid "Telefonul Clientului"
+msgstr "Customer service"
+
+msgid "Mai mult"
+msgstr "More"
+
+msgid "Performanță. Devotament. Perseverență."
+msgstr "Performance. Dedication. Perseverance."
+
+msgid ""
+"Înființată în 1993, Magnum se menține lider în România pe piața de "
+"consumabile, piese și aparate pentru service roți, deținând o rețea de "
+"sucursale și o echipă profesionistă."
+msgstr ""
+"Established in 1993, Magnum remains the leader in Romania on the consumables,"
+" parts and equipment for wheels service market. Also, our company has at its "
+"disposal an extent branch network and a team of professionals."
+
+msgid ""
+"Depozitele regionale ne ajută să fim mai aproape de clienți și să livrăm "
+"marfa în cel mai scurt timp posibil în concordanță cu cerințele acestora. Ne "
+"bazăm pe un principiu puternic și de bază: dorința clienților noștri este și "
+"dorința noastră."
+msgstr ""
+"We have regional warehouses in order to be closer to our clients and deliver "
+"their orders in the shortest time possible. Our company is founded on a "
+"strong principle that states that our clients wish is also our own."
+
+msgid ""
+"În momentul de față dispunem de o distribuție națională, prezentată de "
+"agenți de vânzări pregătiți pentru a fi prezenți în cel mai scurt timp la "
+"fiecare client. Agenții noștri se remarcă prin profesionalism și încredere."
+msgstr ""
+"Right now we provide national distribution through our prompt and highly "
+"qualified sales agents. The main trades that make our sales agents "
+"outstanding are their trustworthiness and professionalism."
+
+msgid ""
+"În 2007 au fost deschise primele sucursale în țările vecine. Astfel, "
+"viziunea companiei se extinde și peste hotare. Personalul nostru calificat "
+"și bine instruit vă stă la dispoziție și răspunde tuturor cerințelor, atât "
+"în țară cât și în afara acesteia."
+msgstr ""
+"In 2007 the first branches were opened in the countries neighboring Romania. "
+"Thus, our vision extends beyond the Romanian frontiers. Our qualified and "
+"highly trained staff is now at your service and is ready to respond to your "
+"questions no matter your location."
+
+msgid ""
+"Firmele grupului au interese comune și își organizează activitatea pe baza "
+"acelorași principii și valori solide, punând accent pe utilizarea în mod "
+"optim a resurselor aflate la dispoziție și pe satisfacerea deplină a "
+"clienților."
+msgstr ""
+"The Magnum Group companies are based on common interests and their "
+"activities are targeted on the same solid values and principles that are "
+"mainly focusing on finding the most efficient ways of using their resources "
+"and fully satisfying their clients."
+
+msgid "Experiență"
+msgstr "Experience"
+
+msgid ""
+"Suntem prima companie din România care comercializează consumabile pentru "
+"vulcanizări, cu peste 20 de ani de experiență. Totodată, suntem și singura "
+"companie românească care reușește să le ofere clienților o acoperire la "
+"nivel național printr-o rețea proprie de distribuție."
+msgstr ""
+"We are the first Romanian company to provide supplies for vulcanization that "
+"has already experienced more than 20 years of activity. Additionally we "
+"prove to be the only Romanian company able to provide national distribution "
+"based on its own distribution network."
+
+msgid "Garanția calității"
+msgstr "Quality guaranty"
+
+msgid ""
+"Garantăm calitate superioară pentru produsele comercializate, acestea fiind "
+"certificate și în concordanță cu necesitățile partenerilor."
+msgstr ""
+"We sell and offer services of superior quality, all these being certificated "
+"and in accordance to our partners’ necessities."
+
+msgid "Servicii"
+msgstr "Services"
+
+msgid ""
+"Ne dedicăm întru totul clienților noștri și le oferim toată atenția necesară."
+" Perseverăm în tot ceea ce facem pentru a obține performanță."
+msgstr ""
+"We wholly dedicate ourselves to our clients and offer them all the attention "
+"needed. We deeply engage in all of our activities in order to meet "
+"performance."
+
+msgid "Asistență"
+msgstr "Assistance"
+
+msgid ""
+"Deținem un departament profesionist de relații cu clienții. Acesta poate să "
+"fie contactat rapid prin diferite canale de comunicare, prin accesarea "
+"telefonică a Call Center-ului sau prin intermediul platformelor online."
+msgstr ""
+"With us customer service is no longer a problem as it provides the best and "
+"most professional help. The customer service can be reached immediately "
+"through our Call Center or online."
+
+msgid "Siguranță"
+msgstr "Security"
+
+msgid ""
+"Prin calitatea produselor și serviciilor oferite de către Magnum puteți și "
+"dumneavoastră să le oferiți cea mai bună calitate clienților, acest lucru "
+"conducând spre succes prin dezvoltarea afacerii pe care o dețineți."
+msgstr ""
+"Thanks to the high quality of our products and services you can also provide "
+"the same quality to your customers further on. This way we are guiding your "
+"firm towards success."
+
+msgid "Performanță"
+msgstr "Performance"
+
+msgid ""
+"Ne face plăcere să îndeplinim cerințele clienților cu ajutorul unei echipe "
+"dedicate. Ea este formată din oameni cu o vastă experiență în vânzări care "
+"vă pot ajuta să soluționați toate cerințele apărute în timpul colaborării cu "
+"compania noastră."
+msgstr ""
+"We are glad and willing to meet our customers’ demands thanks to our "
+"dedicated team. This team consists of people that have rich knowledge and "
+"experience regarding sales and that can help you solve any problem that "
+"appears during our collaboration."
+
+msgid "Viteză"
+msgstr "Speed"
+
+msgid ""
+"Servim săptămânal fiecare client cu mașinile proprii de distribuție și "
+"zilnic prin intermediul unor servicii de curierat."
+msgstr ""
+"We use our own cars weekly for delivery and we also daily deliver by means "
+"of courier services."
+
+msgid "Profesionalism"
+msgstr "Professionalism"
+
+msgid ""
+"Deținem una dintre cele mai avansate rețele de distribuție națională având "
+"depozite regionale situate strategic."
+msgstr ""
+"With us you can find one of the most advanced national distribution network. "
+"Our warehouses are strategically positioned in every region of the country."
+
+msgid "Diversitate"
+msgstr "Diversity"
+
+msgid ""
+"Dispunem de o gamă variată de produse și servicii adaptate celor mai "
+"exigente cerințe ale clienților și acordăm atenție continuă îmbunătățirii "
+"lor."
+msgstr ""
+"At our disposal there is a wide and rich range of services and products "
+"adapted to our clients’ needs. This comprising range is always continuously "
+"developing in order to fit even the most demanding clients."
+
+msgid "Inovație"
+msgstr "Innovation"
+
+msgid ""
+"Suntem prima companie care a introdus pe piața din România consumabile "
+"pentru vulcanizare la rece, având o experiență din anul 1993."
+msgstr ""
+"We are proud to be the first company in Romania to introduce cold "
+"vulcanization as early as 1993."
+
+msgid "Mereu de încredere!"
+msgstr "Always trustworthy!"
+
+msgid "Alătură-te echipei!"
+msgstr "Join the team!"
+
+msgid "Telemarketing"
+msgstr "Telemarketing"
+
+msgid "Adresă"
+msgstr "Address"
+
+msgid "Telefon"
+msgstr "Phone number"
