@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: magnumific\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-13 17:14+0200\n"
-"PO-Revision-Date: Mon Mar 14 2016 12:06:01 GMT+0200 (EET)\n"
+"PO-Revision-Date: Mon Mar 14 2016 22:17:24 GMT+0200 (EET)\n"
 "Last-Translator: magnum <tolci.ionut@gmail.com>\n"
 "Language-Team: Ionut Tolci <tolci.ionut@gmail.com>\n"
 "Language: Romanian\n"
@@ -23,11 +23,8 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Loco-Target-Locale: ro_RO"
 
-msgid "10 motive"
-msgstr "10 motive"
-
-msgid "pentru a ne alege"
-msgstr "pentru a ne alege"
+msgid "Ne dedicăm întru totul clienților noștri și le oferim toată atenția necesară."
+msgstr "Ne dedicăm întru totul clienților noștri și le oferim toată atenția necesară."
 
 #, fuzzy
 msgid "Acasă"
@@ -66,13 +63,6 @@ msgstr ""
 
 msgid "Oferim o gamă complexă de produse și servicii clienților noștri."
 msgstr "Oferim o gamă complexă de produse și servicii clienților noștri."
-
-msgid ""
-"Ne dedicăm întru totul clienților noștri și le oferim toată atenția "
-"ncecesară."
-msgstr ""
-"Ne dedicăm întru totul clienților noștri și le oferim toată atenția "
-"ncecesară."
 
 msgid "Telefonul Clientului"
 msgstr "Telefonul Clientului"
@@ -133,6 +123,9 @@ msgstr ""
 "acelorași principii și valori solide, punând accent pe utilizarea în mod "
 "optim a resurselor aflate la dispoziție și pe satisfacerea deplină a "
 "clienților."
+
+msgid "10 motive"
+msgstr "10 motive"
 
 msgid "Experiență"
 msgstr "Experiență"
@@ -453,3 +446,6 @@ msgstr "Adresă"
 
 msgid "Telefon"
 msgstr "Telefon"
+
+msgid "pentru a ne alege"
+msgstr "pentru a ne alege"

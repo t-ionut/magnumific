@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: magnumific\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-13 17:14+0200\n"
-"PO-Revision-Date: Mon Mar 14 2016 12:04:33 GMT+0200 (EET)\n"
+"PO-Revision-Date: Mon Mar 14 2016 22:17:05 GMT+0200 (EET)\n"
 "Last-Translator: magnum <tolci.ionut@gmail.com>\n"
 "Language-Team: Ionut Tolci <tolci.ionut@gmail.com>\n"
 "Language: English\n"
@@ -22,8 +22,10 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Loco-Target-Locale: en_US"
 
-msgid "10 motive"
-msgstr "10 reasons"
+msgid "Ne dedicăm întru totul clienților noștri și le oferim toată atenția necesară."
+msgstr ""
+"We thoroughly dedicate ourselves towards our clients and offer them all the "
+"attention needed."
 
 msgid ""
 "Titam pune pe primul loc calitatea înainte de toate, aşa cum o spune şi "
@@ -176,9 +178,6 @@ msgstr ""
 msgid "gestionarea siteului companiei"
 msgstr ""
 
-msgid "pentru a ne alege"
-msgstr "to choose us"
-
 msgid "Acasă"
 msgstr "Home"
 
@@ -215,13 +214,6 @@ msgstr ""
 
 msgid "Oferim o gamă complexă de produse și servicii clienților noștri."
 msgstr "We offer our clients a wide range of products and services."
-
-msgid ""
-"Ne dedicăm întru totul clienților noștri și le oferim toată atenția "
-"ncecesară."
-msgstr ""
-"We thoroughly dedicate ourselves towards our clients and offer them all the "
-"attention needed."
 
 msgid "Telefonul Clientului"
 msgstr "Customer service"
@@ -281,6 +273,9 @@ msgstr ""
 "activities are targeted on the same solid values and principles that are "
 "mainly focusing on finding the most efficient ways of using their resources "
 "and fully satisfying their clients."
+
+msgid "10 motive"
+msgstr "10 reasons"
 
 msgid "Experiență"
 msgstr "Experience"
@@ -411,3 +406,6 @@ msgstr "Address"
 
 msgid "Telefon"
 msgstr "Phone number"
+
+msgid "pentru a ne alege"
+msgstr "to choose us"
