@@ -11,9 +11,9 @@ $(document).ready(function() {
 
     function showMenu() {
         var offset = menu.outerWidth() + 50;
-        menu.animate({'right': 0}, 500);
+        menu.animate({'right': 0}, 300);
         close.click(function() {
-            menu.animate({'right': -offset}, 500);
+            menu.animate({'right': -offset}, 300);
         });
     }
     $('.partners > *').click(function() {
