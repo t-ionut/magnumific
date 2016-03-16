@@ -29,6 +29,7 @@
 /********** SITEWIDE FONTS **********/
 
 /********** FONT SETTINGS **********/
+.thin { font-family: 'ZonaPro-Thin'; }
 .bold { font-family: 'ZonaPro-Bold'; }
 .title { font-size: 3rem; }
 .subtitle { font-size: 2rem; }
@@ -68,7 +69,7 @@ pre, form, fieldset, table, th, td { margin: 0; padding: 0; }
 html { font-size: 62.5%; }
 body { 
     background-color: white;
-    font-family: 'ZonaPro-Thin'; 
+    font-family: 'Roboto'; 
     font-size: 1.6rem;
     position: relative;
     right: 0;
@@ -92,7 +93,7 @@ a { text-decoration: none; }
     max-height: 4.8rem;
     max-width: 5rem;
 }
-#topnav nav { float: right; margin-right: 4rem; }
+#topnav nav { float: right; margin-top: 1rem; margin-right: 4rem; }
 #topnav nav a.menu { display: none; }
 #topnav nav a { 
     display: inline-block; 
@@ -126,27 +127,27 @@ a { text-decoration: none; }
 /********** BANNER **********/
 #site-banner { 
     margin-top: 3rem; 
-    margin-bottom: 2.9rem; 
+    margin-bottom: 0.6rem; 
     position: relative;
 }
-#site-banner-bar { top: 12rem; position: absolute; }
-.banner-bar { height: 10rem; width: 100%; }
+#site-banner-bar { top: 9rem; position: absolute; }
+.banner-bar { height: 7rem; width: 100%; }
 #short-desc { 
     display: inline-block; 
     float: right;
-    margin: 2.2rem 10rem 0rem 0rem;
+    margin: 0.8rem 10rem 0rem 0rem;
     text-align: center;
     vertical-align: middle; 
 }
 #site-banner img { 
     background-color: white;
     margin-bottom: 1rem;
-    padding: 2rem;
+    padding: 1.5rem;
     position: relative;
-    top: 4rem;
+    top: 2rem;
     left: 5rem;
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
 }
 @media only screen and (min-width: 836px) and (max-width: 1000px) {
     .banner-bar { height: 7rem; }
@@ -201,9 +202,10 @@ a { text-decoration: none; }
 /********** BANNER **********/
 
 /********** HOME **********/
+section p { font-family: 'ZonaPro-Thin'; }
 section#homesection { height: 25rem; }
 section#homesection .banner {
-    background-image: url('/wp-content/themes/magnumific/pictures/Poze/tire.jpg');
+    background-image: url('/wp-content/themes/magnumific/pictures/Poze/home.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -295,8 +297,8 @@ section#homesection .banner {
 .section-anchor.contact { 
     background-image: url('/wp-content/themes/magnumific/pictures/Grafic/Contact.png'); 
 }
-.navitem-title { 
-    font-size: 2.5rem; 
+.navitem-title {
+    font-size: 2.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -321,24 +323,33 @@ section#homesection .banner {
     -webkit-flex-flow: row nowrap;
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    margin: auto;
+    padding: auto;
     max-height: 28rem;
     width: 100%;
 }
-.section#about .banner img { 
+.section#about .banner img {
+    margin: auto;
+    padding: auto;
+    height: 18rem;
+    width: 30rem;
+    /*
     -webkit-box-flex: 1;
     -webkit-flex: 1 33%;
     -ms-flex: 1 33%;
     flex: 1 33%;
     width: 33%;
+    */
 }
+/*
 .section#about .banner img:last-child { 
     -webkit-box-flex: 1; 
     -webkit-flex: 1 34%; 
     -ms-flex: 1 34%; 
     flex: 1 34%; 
 }
+*/
 #about-title { margin-left: 5rem; padding: 3rem 0rem 3rem 0rem; }
 
 @media only screen and (max-width: 1030px) {
@@ -493,6 +504,35 @@ section#homesection .banner {
 /********** ABOUT **********/
 
 /********** PARTNERS **********/
+section#partnersection { height: 25rem; }
+section#partnersection .banner {
+    background-image: url('/wp-content/themes/magnumific/pictures/Poze/partners.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#partnersection .container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#partnersection .content {
+    max-width: 70rem;
+    position: absolute;
+    right: 20%;
+    top: 50%;
+}
+#partnersection p {
+    background-color: white;
+    border-radius: 0rem 0rem 0rem 0rem;
+    opacity: 0.8;
+    padding: 1rem;
+    vertical-align: middle;
+}
 .partners { 
     display: -webkit-box;
     display: -ms-flexbox;
@@ -536,6 +576,35 @@ section#homesection .banner {
 /********** PARTNERS **********/
 
 /********** TEAM **********/
+section#teamsection { height: 25rem; }
+section#teamsection .banner {
+    background-image: url('/wp-content/themes/magnumific/pictures/Poze/team.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#teamsection .container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#teamsection .content {
+    max-width: 70rem;
+    position: absolute;
+    right: 20%;
+    top: 50%;
+}
+#teamsection p {
+    background-color: white;
+    border-radius: 0rem 0rem 0rem 0rem;
+    opacity: 0.8;
+    padding: 1rem;
+    vertical-align: middle;
+}
 .team {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -559,6 +628,35 @@ section#homesection .banner {
 /********** TEAM **********/
 
 /********** CAREER **********/
+section#careersection { height: 25rem; }
+section#careersection .banner {
+    background-image: url('/wp-content/themes/magnumific/pictures/Poze/career.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#careersection .container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#careersection .content {
+    max-width: 70rem;
+    position: absolute;
+    right: 20%;
+    top: 50%;
+}
+#careersection p {
+    background-color: white;
+    border-radius: 0rem 0rem 0rem 0rem;
+    opacity: 0.8;
+    padding: 1rem;
+    vertical-align: middle;
+}
 .section#career .blue.banner-bar { margin-top: 7rem; }
 .section#career .blue.banner-bar.title { 
     -webkit-box-align: center;
@@ -669,6 +767,35 @@ section#homesection .banner {
 /********** CAREER **********/
 
 /********** CONTACT **********/
+section#contactsection { height: 25rem; }
+section#contactsection .banner {
+    background-image: url('/wp-content/themes/magnumific/pictures/Poze/contact.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#contactsection .container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#contactsection .content {
+    max-width: 70rem;
+    position: absolute;
+    right: 20%;
+    top: 50%;
+}
+#contactsection p {
+    background-color: white;
+    border-radius: 0rem 0rem 0rem 0rem;
+    opacity: 0.8;
+    padding: 1rem;
+    vertical-align: middle;
+}
 #address p.title, #contact-form p.title { margin-bottom: 5rem; }
 #address p { margin-bottom: 2rem; }
 #address p.bold { margin-bottom: 0rem; }

@@ -1,8 +1,15 @@
 <div class="section" id="contact">
     <a class="anchor" name="contact"></a>
-    <div class="banner">
-        <img src="/wp-content/themes/magnumific/pictures/Poze/contact-banner-1200x351.jpg">
-    </div>
+    <section id="contactsection">
+        <div class="banner">
+            <div class="container">
+                <div class="content">
+                    <p class="title"><?php _e( 'Contact', 'mgm' ); ?>
+                    </p>
+                </div>
+            </div>    
+        </div>
+    </section>
     <div id="contact-details">
         <div id="map">
             <?php get_map(); ?>

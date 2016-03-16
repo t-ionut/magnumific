@@ -1,6 +1,6 @@
 <div class="section" id="about">
     <a class="anchor" name="despre"></a>
-    <div class="title" id="about-title"><?php _e( 'Performanță. Devotament. Perseverență.', 'mgm' ); ?></div>
+    <div class="title thin" id="about-title"><?php _e( 'Performanță. Devotament. Perseverență.', 'mgm' ); ?></div>
     <div class="banner">
         <img src="/wp-content/themes/magnumific/pictures/Poze/about-1-1200x800.jpg">
         <img src="/wp-content/themes/magnumific/pictures/Poze/about-2-1200x800.jpg">
@@ -63,7 +63,7 @@
         </div>
     </div>
     <div class="section-separator"></div>
-    <p class="title" id="reasons-desc"><span class="bold keyword"><?php _e( '10 motive', 'mgm' ); ?></span> <?php _e( 'pentru a ne alege', 'mgm' ); ?></p>
+    <p class="title thin" id="reasons-desc"><span class="bold keyword"><?php _e( '10 motive', 'mgm' ); ?></span> <?php _e( 'pentru a ne alege', 'mgm' ); ?></p>
     <div class="reason-blocks">
         <div class="reason-block zoomable">
             <p class="title bold  keyword reason-num">1</p>

@@ -2,7 +2,7 @@
     <a href="<?php echo home_url(); ?>">
         <img class="zoomable" src="/wp-content/themes/magnumific/pictures/Logo/navbar-logo.png">
     </a>
-    <nav>
+    <nav class="thin">
         <a class="smooth" href="#"><?php _e( 'Acasă', 'mgm' ); ?></a>
         <a class="smooth" href="#despre"><?php _e( 'Despre noi', 'mgm' ); ?></a>
         <a class="smooth" href="#parteneri"><?php _e( 'Parteneri', 'mgm' ); ?></a>

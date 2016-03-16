@@ -18,6 +18,7 @@ load_theme_textdomain( 'mgm' );
 
 function mgm_scripts() {
 	wp_enqueue_style( 'stylesheet', get_stylesheet_uri() );
+    wp_enqueue_style( 'font-roboto', 'https://fonts.googleapis.com/css?family=Roboto', false );
     #wp_enqueue_script( 'skrollr', get_stylesheet_directory_uri() . '/js/plugins/skrollr.min.js', array( 'jquery' ) );
     #wp_enqueue_script( 'skrollr-magnum', get_stylesheet_directory_uri() . '/js/skrollr-magnum.js', array( 'jquery', 'skrollr' ) );
 }

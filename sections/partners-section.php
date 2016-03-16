@@ -1,8 +1,15 @@
 <div class="section" id="partners">
     <a class="anchor" name="parteneri"></a>
-    <div class="banner">
-        <img style="max-width: 100%;" src="/wp-content/themes/magnumific/pictures/Poze/partners-banner-1200x350.jpg">
-    </div>
+    <section id="partnersection">
+        <div class="banner">
+            <div class="container">
+                <div class="content">
+                    <p class="title"><?php _e( 'Parteneri', 'mgm' ); ?></p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!--<img src="/wp-content/themes/magnumific/pictures/Poze/partners-banner-1200x350.jpg">-->
     <div class="partners">
         <div id="titam-logo" class="partner-logo zoomable">
             <img src="/wp-content/themes/magnumific/pictures/Logo/logo.gif">

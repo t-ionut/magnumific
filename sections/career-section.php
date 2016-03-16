@@ -1,16 +1,23 @@
 <div class="section" id="career">
     <a class="anchor" name="cariera"></a>
-    <div class="banner">
-        <img src="/wp-content/themes/magnumific/pictures/Poze/career-banner-1200x350.jpg">
-    </div>
-    <div class="blue banner-bar title"><?php _e( 'Alătură-te echipei!', 'mgm' ); ?></div>
+    <section id="careersection">
+        <div class="banner">
+            <div class="container">
+                <div class="content">
+                    <p class="title"><?php _e( 'Carieră', 'mgm' ); ?>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="blue banner-bar title thin"><?php _e( 'Alătură-te echipei!', 'mgm' ); ?></div>
     <div class="jobs">
         <div id="telemarketing-position" class="job-position">
-            <p class="title"><?php _e( 'Telemarketing', 'mgm' ); ?></p>
+            <p class="title thin"><?php _e( 'Telemarketing', 'mgm' ); ?></p>
             <img id="telemarketing-logo" class="zoomable" src="/wp-content/themes/magnumific/pictures/Grafic/Telemarketing.png">
         </div>
         <div id="sales-position" class="job-position">
-            <p class="title"><?php _e( 'Agent de vânzări', 'mgm' ); ?></p>
+            <p class="title thin"><?php _e( 'Agent de vânzări', 'mgm' ); ?></p>
             <div id="sales-desc" class="description blue">
                 <p class="bold">Agent de vanzari</p>
                 <p>Cautam persoane dinamice, capabile de implicare in munca lor si dornice sa activeze intr-un mediu de lucru profesionist, orientat pe dezvoltarea continua a celor care intra in echipa noastra. Pentru noi, serviciile si solutiile aduse clientilor sunt cea mai buna carte de vizita si cea mai mare responsabilitate.</p>
