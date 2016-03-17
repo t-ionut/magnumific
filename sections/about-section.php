@@ -53,7 +53,7 @@
         <div class="block-row-separator"></div>
         <div class="about-block">
             <div class="about-icon" id="ab-5"></div>
-            <p class="about-block-text">Firmele grupului au interese comune și își organizează activitatea pe baza acelorași <span class="bold keyword">principii și valori solide</span>, punând accent pe utilizarea în mod optim a resurselor aflate la dispoziție și pe satisfacerea deplină a clienților.
+            <p class="about-block-text">
             <?php
                 $text = __( 'Firmele grupului au interese comune și își organizează activitatea pe baza acelorași principii și valori solide, punând accent pe utilizarea în mod optim a resurselor aflate la dispoziție și pe satisfacerea deplină a clienților.', 'mgm' );
                 $keywords = array( 'principii și valori solide' );
