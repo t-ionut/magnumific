@@ -9,7 +9,7 @@
             </div>
         </div>
     </section>
-    <div class="nav-expanded">
+    <div class="nav-expanded" style="visibility: hidden">
         <div class="navitem-expanded zoomable">
             <a href="#despre" class="about section-anchor"></a>
             <p class="navitem-title thin"><?php _e( 'Despre noi', 'mgm' ); ?></p>

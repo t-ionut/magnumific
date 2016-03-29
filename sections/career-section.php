@@ -11,7 +11,7 @@
         </div>
     </section>
     <div class="blue banner-bar title thin"><?php _e( 'Alătură-te echipei!', 'mgm' ); ?></div>
-    <div class="jobs">
+    <div class="jobs" style="visibility: hidden">
         <div id="telemarketing-position" class="job-position">
             <p class="title thin"><?php _e( 'Telemarketing', 'mgm' ); ?></p>
             <img id="telemarketing-logo" class="zoomable" src="/wp-content/themes/magnumific/pictures/Grafic/Telemarketing.png">

@@ -95,10 +95,15 @@ a { text-decoration: none; }
 }
 #topnav nav { float: right; margin-top: 1rem; margin-right: 4rem; }
 #topnav nav a.menu { display: none; }
-#topnav nav a { 
+#topnav nav a {
+    border-bottom: #151728 0.1rem solid;
     display: inline-block; 
     margin: 0.8rem 2rem 0.4rem 2rem; 
     vertical-align: middle; 
+}
+#topnav nav a:hover {
+    border-bottom: aqua 0.1rem solid;
+    color: aqua;
 }
 .blue { background-color: #151728; color: white; }
 .blue a { color: white; }

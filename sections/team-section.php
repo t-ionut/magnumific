@@ -10,7 +10,7 @@
             </div>
         </div>
     </section>
-    <div class="team">
+    <div class="team" style="visibility: hidden">
         <div class="team-icon">
             <img src="/wp-content/themes/magnumific/pictures/Grafic/Cravată.png">
         </div>

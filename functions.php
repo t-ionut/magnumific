@@ -26,16 +26,46 @@ function mgm_scripts() {
 add_action( 'wp_enqueue_scripts', 'mgm_scripts' );
 
 function mgm_head() {
-    $style = '<style type="text/css">';
-    $style .= 'body.mgm-body-logged-in #topnav { top: 3.2rem; }'; 
-    $style .= 'body.mgm-body-logged-out #topnav { top: 0rem; }';
-    $style .= '@media only screen and (max-width: 782px) {';
-    $style .= 'body.mgm-body-logged-in #topnav { top: 4.6rem; }';
-    $style .= '} @media only screen and (max-width: 600px) {';
-    $style .= 'body.mgm-body-logged-in #topnav { top: 0rem; }}';
-    $style .= '</style>';
-
-    echo $style;
+?>
+<style type="text/css">
+/*
+body.mgm-body-logged-in #topnav { top: 3.2rem; }
+body.mgm-body-logged-out #topnav { top: 0rem; }
+@media only screen and (max-width: 782px) {
+    body.mgm-body-logged-in #topnav { top: 4.6rem; }
+}
+@media only screen and (max-width: 600px) {
+    body.mgm-body-logged-in #topnav { top: 0rem; }
+}
+.no-js #loader { display: none; }
+.js #loader {
+    display: block; 
+    position: absolute; 
+    top: -3.2rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1001; 
+}
+*/
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+<script type="text/javascript">
+/*
+$(window).load(function() {
+    // Animate loader off screen
+    $("#loader").fadeOut({
+        duration: 2500,
+        complete: function() {
+            //$("#loader").css({"display": "none"});
+        }
+    });
+});
+*/
+</script>
+<?php
 }
 add_action( 'wp_head', 'mgm_head' );
 
@@ -44,6 +74,10 @@ function mgm_footer() {
     #wp_enqueue_script( 'google-maps', 'https://maps.googleapis.com/maps/api/js?callback=initMap' );
     wp_enqueue_script( 'scrollSpeed', get_stylesheet_directory_uri() . '/js/plugins/jQuery.scrollSpeed.js', array( 'jquery' ) );
     wp_enqueue_script( 'smoothscroll', get_stylesheet_directory_uri() . '/js/smoothscroll.js', array( 'jquery', 'scrollSpeed' ) );
+    wp_enqueue_script( 'lazyView-js', get_stylesheet_directory_uri() . '/js/plugins/lazyView/jquery.lazyView.min.js', array( 'jquery' ) );
+    wp_enqueue_script( 'lazyView-js-manipulate', get_stylesheet_directory_uri() . '/js/lazyView.manipulate.js', array( 'jquery', 'lazyView-js' ) );
+    wp_enqueue_style( 'lazyView-css', get_stylesheet_directory_uri() . '/js/plugins/lazyView/jquery.lazyView.min.css' );
+    
     #wp_enqueue_script( 'flip', 'https://cdn.rawgit.com/nnattawat/flip/v1.0.19/dist/jquery.flip.min.js', array( 'jquery' ) );
     #wp_enqueue_script( 'fliper', get_stylesheet_directory_uri() . '/js/fliper.js', array( 'jquery' ) );
     #wp_enqueue_script( 'slide-menu', get_stylesheet_directory_uri() . '/js/slide-menu.js' );

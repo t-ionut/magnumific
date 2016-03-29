@@ -7,6 +7,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body class="<?php echo join( ' ', get_body_class() ); ?>">
+        <img src="/wp-content/themes/magnumific/pictures/Grafic/loader.gif" id="loader">
         <div class="slide-menu blue">
             <a id="close">X</a>
             <br><br>

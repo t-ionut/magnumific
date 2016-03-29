@@ -1,12 +1,12 @@
 <div class="section" id="about">
     <a class="anchor" name="despre"></a>
     <div class="title thin" id="about-title"><?php _e( 'Performanță. Devotament. Perseverență.', 'mgm' ); ?></div>
-    <div class="banner">
+    <div class="banner" style="visibility: hidden">
         <img src="/wp-content/themes/magnumific/pictures/Poze/about-1-1200x800.jpg">
         <img src="/wp-content/themes/magnumific/pictures/Poze/about-2-1200x800.jpg">
         <img src="/wp-content/themes/magnumific/pictures/Poze/about-3-1200x800.jpg">
     </div>
-    <div class="about-blocks">
+    <div class="about-blocks" style="visibility: hidden">
         <div class="about-block">
             <div class="about-icon" id="ab-1"></div>
             <p class="about-block-text">
@@ -64,7 +64,7 @@
     </div>
     <div class="section-separator"></div>
     <p class="title thin" id="reasons-desc"><span class="bold keyword"><?php _e( '10 motive', 'mgm' ); ?></span> <?php _e( 'pentru a ne alege', 'mgm' ); ?></p>
-    <div class="reason-blocks">
+    <div class="reason-blocks" style="visibility: hidden">
         <div class="reason-block zoomable">
             <p class="title bold  keyword reason-num">1</p>
             <div class="reason-block-text">

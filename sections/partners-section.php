@@ -10,7 +10,7 @@
         </div>
     </section>
         <!--<img src="/wp-content/themes/magnumific/pictures/Poze/partners-banner-1200x350.jpg">-->
-    <div class="partners">
+    <div class="partners" style="visibility: hidden">
         <div id="titam-logo" class="partner-logo zoomable">
             <img src="/wp-content/themes/magnumific/pictures/Logo/logo.gif">
             <div id="titam-desc" class="description blue">
